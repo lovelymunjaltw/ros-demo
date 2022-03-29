@@ -1,0 +1,61 @@
+header:
+    frame_id: map
+    seq: 0
+    stamp: {nsecs: 0, secs: 0}
+poses:
+-   header:
+        frame_id: map
+        seq: 0
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}
+        position: {x: 10, y: 10, z: 0}
+-   header:
+        frame_id: map
+        seq: 1
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 1.0, x: 0.0, y: 0.0, z: 0.0}
+        position: {x: 30, y: 10, z: 0}
+-   header:
+        frame_id: map
+        seq: 2
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.7071067811865476, x: 0.0, y: 0.0, z: 0.7071067811865475}
+        position: {x: 60, y: 10, z: 0}
+-   header:
+        frame_id: map
+        seq: 3
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.6339889056055381, x: 0.0, y: 0.0, z: 0.7733421413379022}
+        position: {x: 60, y: 35, z: 0}
+-   header:
+        frame_id: map
+        seq: 4
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 6.123233995736766e-17, x: 0.0, y: 0.0, z: 1.0}
+        position: {x: 55, y: 60, z: 0}
+-   header:
+        frame_id: map
+        seq: 5
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 6.123233995736766e-17, x: 0.0, y: 0.0, z: 1.0}
+        position: {x: 30, y: 60, z: 0}
+-   header:
+        frame_id: map
+        seq: 6
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.85065080835204, x: 0.0, y: 0.0, z: -0.5257311121191336}
+        position: {x: 15, y: 60, z: 0}
+-   header:
+        frame_id: map
+        seq: 7
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.85065080835204, x: 0.0, y: 0.0, z: -0.5257311121191336}
+        position: {x: 30, y: 30, z: 0}
