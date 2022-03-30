@@ -50,3 +50,22 @@ Follow below steps to create ROS package and nodes:
 		Ref for commands:
 		http://wiki.ros.org/rostopic
 		http://wiki.ros.org/rosservice
+
+
+Follow below steps to visualise data through Rviz:
+	
+	1. Create data with any message type supoorted by Rviz. e.g. nav_msgs/Path. We have created data using python script.
+	2. start ros master, command: roscore
+	3. start rviz, command: rviz
+	4. Publish data over a topic (with message type and data file): rostopic pub <any-topic-name> <message-type> -f <file name>
+	e.g. rostopic pub topic1 nav_msgs/Path -f shape1_rectangle.yaml
+	Run above command where .yaml file is stored
+	5. In rviz, Add required display (Path in our case) and select topic name (i.e. /topic1)
+	Now we should be able to see the Path in rviz.
+
+	Note:
+	Rviz can visualise 3D data as well.
+	Data can be create using c++ also. 
+	We can write our own plugin to visualise any custom data type.
+
+	Ref: http://wiki.ros.org/rviz/UserGuide

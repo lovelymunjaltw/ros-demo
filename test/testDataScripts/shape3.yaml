@@ -1,0 +1,61 @@
+header:
+    frame_id: map
+    seq: 0
+    stamp: {nsecs: 0, secs: 0}
+poses:
+-   header:
+        frame_id: map
+        seq: 0
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.7609173743274209, x: 0.0, y: 0.0, z: 0.6488487878132035}
+        position: {x: 10, y: 50, z: 0}
+-   header:
+        frame_id: map
+        seq: 1
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.9570920264890529, x: 0.0, y: 0.0, z: -0.28978414868843005}
+        position: {x: 50, y: 300, z: 0}
+-   header:
+        frame_id: map
+        seq: 2
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.9336204116896669, x: 0.0, y: 0.0, z: 0.35826376718336567}
+        position: {x: 200, y: 200, z: 0}
+-   header:
+        frame_id: map
+        seq: 3
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.6394961844365034, x: 0.0, y: 0.0, z: -0.7687942703292954}
+        position: {x: 700, y: 650, z: 0}
+-   header:
+        frame_id: map
+        seq: 4
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.9701425001453319, x: 0.0, y: 0.0, z: -0.24253562503633297}
+        position: {x: 650, y: 380, z: 0}
+-   header:
+        frame_id: map
+        seq: 5
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.38268343236508984, x: 0.0, y: 0.0, z: 0.9238795325112867}
+        position: {x: 800, y: 300, z: 0}
+-   header:
+        frame_id: map
+        seq: 6
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.61947819491599, x: 0.0, y: 0.0, z: -0.7850138635868966}
+        position: {x: 300, y: 800, z: 0}
+-   header:
+        frame_id: map
+        seq: 7
+        stamp: {nsecs: 0, secs: 0}
+    pose:
+        orientation: {w: 0.61947819491599, x: 0.0, y: 0.0, z: -0.7850138635868966}
+        position: {x: 120, y: 47, z: 0}
