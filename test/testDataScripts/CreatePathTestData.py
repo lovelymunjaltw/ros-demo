@@ -63,13 +63,14 @@ def getQuaternion(roll, pitch, yaw):# yaw is same as heading i.e. direction towa
 
 
 def writeDataToYamlFile(data, pathName):
-    filename = pathName + ".yaml"
-    with open(filename, "wb") as yamlFile:
+    fileName = pathName + ".yaml"
+    fileNameWithPath = "data/" + pathName + ".yaml"
+    with open(fileNameWithPath, "wb") as yamlFile:
         yaml.dump(
             yaml.load(str(data), Loader=yaml.SafeLoader),
             yamlFile,
             indent=4)
-    print("Writing data to file: " + filename + " completed\n")
+    print("Writing data to file: " + fileName + " completed\n")
 
 
 # create various test data with method: createPath
