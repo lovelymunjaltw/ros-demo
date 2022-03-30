@@ -41,6 +41,10 @@ Follow below steps to create ROS package and nodes:
 		3. Start subscriber node: ./subscriber
 		please make sure you run above 2 commands where execubales are present i.e. at ~/catkin_ws/devel/lib/ros_demo
 
+		Another way to start node is using launch file: One launch file can start any number of nodes specified inside
+		command - roslaunch <package_name> <launch file name>
+		e.g. roslaunch ros_demo publisher.launch
+
 	Few useful commands related to nodes and topics:
 		1. rosnode list
 		2. rosnode info <any node name>
@@ -58,10 +62,16 @@ Steps to execute gtest:
 		cd /usr/src/googletest
 		sudo cmake .
 		sudo cmake --build . --target install	
+	
 	2. Build project at catkin_ws directory: catkin_make
-	3. Run gtests: catkin_make run_tests
+	
+	3. Run all gtests: catkin_make run_tests
 	You will be able to see the summary
 	For more details check xml files at path: build/test_results/ros_demo
+	Note - These gtests are rostest since we are using *.test launch file to start the nodes
+
+	4. Run a particular test: catkin_make run_tests_<package_name>_rostest_<test directories>_<.test launch file>
+	e.g. catkin_make run_tests_ros_demo_rostest_test_unit_test_test_publisher.test
 
 Follow below steps to visualise data through Rviz:
 	

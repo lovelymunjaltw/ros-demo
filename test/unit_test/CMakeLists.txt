@@ -1,4 +1,4 @@
-add_definitions(-DUNITTEST_SRC_DIR="${PROJECT_SOURCE_DIR}/src/tests/unittests")
+add_definitions(-DUNITTEST_SRC_DIR="${PROJECT_SOURCE_DIR}/test/unit_test")
 
 add_rostest_gtest(test_publisher test_publisher.test test_publisher.cpp)
 add_dependencies(test_publisher publisher)
