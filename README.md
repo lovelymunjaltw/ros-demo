@@ -1,4 +1,4 @@
-Prerequisite: Need an Ubuntu Machineo or VM
+Prerequisite: Need an Ubuntu OS Machine or Ubuntu OS VM (which can run on Windows and Mac OS as well) 
 
 Install ROS, follow the steps mentioned here:
 http://wiki.ros.org/melodic/Installation/Ubuntu
@@ -52,15 +52,16 @@ Follow below steps to create ROS package and nodes:
 		http://wiki.ros.org/rosservice
 
 Steps to execute gtest:
-		1. Install gtest using below commands:
-		    sudo apt install libgtest-dev build-essential
-			cd /usr/src/googletest
-			sudo cmake .
-			sudo cmake --build . --target install	
-		2. Build project at catkin_ws directory: catkin_make
-		3. Run tests: catkin_make run_tests
-			You will be able to see the summary
-			For more details check at path: build/test_results/ros_demo
+
+	1. Install gtest using below commands:
+		sudo apt install libgtest-dev build-essential
+		cd /usr/src/googletest
+		sudo cmake .
+		sudo cmake --build . --target install	
+	2. Build project at catkin_ws directory: catkin_make
+	3. Run gtests: catkin_make run_tests
+	You will be able to see the summary
+	For more details check xml files at path: build/test_results/ros_demo
 
 Follow below steps to visualise data through Rviz:
 	
