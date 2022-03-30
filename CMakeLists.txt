@@ -214,4 +214,4 @@ target_link_libraries(publisher ${catkin_LIBRARIES})
 add_executable(subscriber src/Subscriber.cpp)
 target_link_libraries(subscriber ${catkin_LIBRARIES})
 
-add_subdirectory(src/tests)
+add_subdirectory(test)
