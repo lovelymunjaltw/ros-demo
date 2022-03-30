@@ -11,7 +11,7 @@ Follow below steps to create ROS package and nodes:
 	Create a workspace for catkin:
 		$ mkdir -p ~/catkin_ws/src
 		$ cd ~/catkin_ws/
-		$ source /opt/ros/melodic/share
+		$ source /opt/ros/melodic/setup.bash
 		$ catkin_make
 
 		catkin_make will create three directories: src, build and devel

@@ -11,6 +11,10 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
 )
+find_package(GTest REQUIRED)
+find_package(rostest REQUIRED)
+find_package (PythonLibs 2.7 EXACT)
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -209,3 +213,5 @@ target_link_libraries(publisher ${catkin_LIBRARIES})
 
 add_executable(subscriber src/Subscriber.cpp)
 target_link_libraries(subscriber ${catkin_LIBRARIES})
+
+add_subdirectory(src/tests)
